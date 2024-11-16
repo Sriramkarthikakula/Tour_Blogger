@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog Website with Next.js and Supabase</title>
-</head>
+
 <body>
   <h1>Blog Website with Next.js and Supabase</h1>
   <p>This is a simple blog website built using <strong>Next.js</strong> and <strong>Supabase</strong>, where users can sign up, sign in, select a country, add their blogs, and view blogs from other users in the same country. The admin has special privileges to manage blogs from all users, including viewing, editing, and deleting blogs.</p>
@@ -27,6 +21,11 @@
       <ul>
         <li>Admin can log in using specific credentials and manage blogs.</li>
         <li>Admin can select a country to view, add, edit, and delete blogs from any user.</li>
+        <h2>Admin Credentials</h2>
+  <ul>
+    <li><strong>Email:</strong> admin1420@gmail.com</li>
+    <li><strong>Password:</strong> 123456</li>
+  </ul>
       </ul>
     </li>
   </ul>
@@ -116,14 +115,5 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key</code></pre>
       </ul>
     </li>
   </ul>
-
-  <h2>Contributing</h2>
-  <ol>
-    <li>Fork the repository.</li>
-    <li>Create a new branch (<code>git checkout -b feature-name</code>).</li>
-    <li>Make your changes and commit them (<code>git commit -am 'Add new feature'</code>).</li>
-    <li>Push to your forked repository (<code>git push origin feature-name</code>).</li>
-    <li>Open a pull request.</li>
-  </ol>
 </body>
 </html>

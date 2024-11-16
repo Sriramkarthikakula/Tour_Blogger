@@ -88,6 +88,8 @@ const Page = () => {
   useEffect(() => {
     const useremail = Cookies.get("email");
     const role = Cookies.get("role");
+    const country = Cookies.get("country");
+    sessionStorage.setItem("country", country ?? "");
     setEmail(useremail || null);
 
     setRole(role || null);

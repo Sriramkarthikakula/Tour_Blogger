@@ -22,8 +22,7 @@ interface Country {
   country_name: string;
 }
 
-export default function Signup(props: { searchParams: Message }) {
-  const { searchParams } = props;
+export default function Signup() {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [countries, setCountries] = useState<Country[]>([]);
 
